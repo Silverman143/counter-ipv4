@@ -49,8 +49,8 @@ Optimized for **speed** and **low memory usage**.
 ```bash
 go run ./cmd/main.go \
     -mode=full \
-    -shards=256 \
-    -batch=4096 \
+    -shards=128 \
+    -batch=1024 \
     -chanbuf=64 \
     ./static/ip_addresses
 ```
@@ -59,7 +59,7 @@ go run ./cmd/main.go \
 
 ```bash
 go run ./cmd/main.go \
-    -mode=full \
+    -mode=chunked \
     -shards=256 \
     -batch=4096 \
     -chanbuf=64 \

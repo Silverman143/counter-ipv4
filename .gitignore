@@ -1,0 +1,78 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.docker
+
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Go specific
+/bin/
+/pkg/
+/vendor/
+*.test
+*.out
+go.work
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime*
+.history
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Compiled binary addons
+build/Release/
+dist/
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker volumes and data directories
+data/
+
+# Debug files
+debug/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# other
+/output/
+static/
+sessions/
+data/
+counters/
